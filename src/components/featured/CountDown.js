@@ -18,6 +18,14 @@ getTimeUntil(deadline){
         const seconds = Math.floor((time/1000)%60);
         const minutes = Math.floor((time/1000/60)%60);
         const hours = Math.floor((time/(1000*60*60))%24);
+        const days = Math.floor(time/(1000*60*60*24));
+
+        this.setState({
+            days,
+            hours,
+            minutes,
+            seconds
+        })
     }
     
 }
@@ -35,7 +43,7 @@ getTimeUntil(deadline){
                     <div className="countdown_bottom">
                         <div className="countdown_item">
                             <div className="countdown_time">
-                                23
+                                {this.state.days}
                         </div>
                             <div className="countdown_tag">
                                 Days
@@ -43,7 +51,7 @@ getTimeUntil(deadline){
                         </div>
                         <div className="countdown_item">
                             <div className="countdown_time">
-                                2
+                            {this.state.hours}
                         </div>
                             <div className="countdown_tag">
                                 Hours
@@ -51,7 +59,7 @@ getTimeUntil(deadline){
                         </div>
                         <div className="countdown_item">
                             <div className="countdown_time">
-                                20
+                            {this.state.minutes}
                         </div>
                             <div className="countdown_tag">
                                 Minutes
@@ -59,7 +67,7 @@ getTimeUntil(deadline){
                         </div>
                         <div className="countdown_item">
                             <div className="countdown_time">
-                                45
+                            {this.state.seconds}
                         </div>
                             <div className="countdown_tag">
                                 Seconds
