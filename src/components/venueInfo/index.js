@@ -23,7 +23,7 @@ const VenueInfo = () => {
                                         Event Date & Time
                                 </div>
                                     <div className="vn_desc">
-                                        16 December 2019 @8:00 pm
+                                        4 September 2019 @8:00 pm
                                 </div>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@ const VenueInfo = () => {
                                         Event Location
                                 </div>
                                     <div className="vn_desc">
-                                        117 N Woodland Blvd, DeLand, FL 32720
+                                       Istanbul, Santorini, & Crete
                                 </div>
                                 </div>
                             </div>

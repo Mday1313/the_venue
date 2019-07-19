@@ -8,7 +8,7 @@ const Featured = () => {
             <Carrousel />
             <div className="artist_name">
                 <div className="wrapper">
-                    Florence and the MAchine
+                    Turkey & Greece Adventure
                 </div>
             </div>
             <CountDown />
