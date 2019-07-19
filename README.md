@@ -4,4 +4,4 @@ Experimenting with React and material-ui to create a frontend only countdown and
 
 
 ## Link
-[Visit the site](https://http://statuesque-books.surge.sh/)
+[Visit the site](https://statuesque-books.surge.sh/)
